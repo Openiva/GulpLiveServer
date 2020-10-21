@@ -14,3 +14,9 @@ function processSass() { //chews through sass and prints out css(task function)
         })) //minify css
         .pipe(gulp.dest("dist/assets/css")) //prints to css
         .pipe(connect.reload()); //reloads liveserver 
+
+        function watch() { //updating changes
+            gulp.watch("src/sass/**/*.scss", { ignoreInitial: false }, processSass);
+            gulp.watch("src/html/**/*.html", { ignoreInitial: false }, processHTML);
+        
+        }
