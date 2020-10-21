@@ -11,12 +11,13 @@ var gulpLiveServer = require("gulp-allinone-server");
 
 Then to access them in another file:
 
-var myFunctions = require("./lib/file.js")
+var myFunction = require("./lib/file.js")
 
 And then you can call each function by calling:
 
 ```
-myFunctions.function1
-myFunctions.function2
-myFunctions.function3
+myFunctions.processHtml
+myFunctions.processSass
+myFunctions.watch
+myFunctions.server
 ```
