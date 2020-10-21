@@ -24,3 +24,10 @@ myFunctions.server
 
 ### Include this folder structure:
 create a folder called 'src' that contains subfolders: 'html', 'js', 'sass' in root directory.
+
+Root directory
+ - 'src' folder
+   - 'html' subfolder
+   - 'sass' subfolder
+   - 'js' subfolder
+ - gulpfile.js (placed outside of src in root directory)
