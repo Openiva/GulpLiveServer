@@ -1,0 +1,28 @@
+{
+  "name": "gulpliveserver",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "description": "An All-in-one Gulp live server which includes a Sass pre-processor and CSS minifier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Openiva/GulpLiveServer.git"
+  },
+  "keywords": [
+    "Hacktober", "liveserver", "gulp", "sass", "preprocessor", "css"
+  ],
+  "author": "Openiva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Openiva/GulpLiveServer/issues"
+  },
+  "homepage": "https://github.com/Openiva/GulpLiveServer#readme"
+}
