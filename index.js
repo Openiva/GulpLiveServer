@@ -1,6 +1,5 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass"); //imports sass
-var cleanCss = require("gulp-clean-css");
 var connect = require("gulp-connect");
 
 function processHTML() {
@@ -34,5 +33,3 @@ function server() {
         livereload: true
     });
 };
-
-gulp.task("default", gulp.parallel(server, watch)); //runs the functions and updates the server
