@@ -1,6 +1,6 @@
 {
   "name": "gulp-allinone-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
@@ -17,7 +17,12 @@
     "url": "git+https://github.com/Openiva/GulpLiveServer.git"
   },
   "keywords": [
-    "Hacktober", "liveserver", "gulp", "sass", "preprocessor", "css"
+    "Hacktober",
+    "liveserver",
+    "gulp",
+    "sass",
+    "preprocessor",
+    "css"
   ],
   "author": "Openiva",
   "license": "MIT",
