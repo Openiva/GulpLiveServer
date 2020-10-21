@@ -10,6 +10,7 @@
   "description": "An All-in-one Gulp live server which includes a Sass pre-processor and CSS minifier",
   "main": "index.js",
   "scripts": {
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
