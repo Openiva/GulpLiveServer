@@ -34,9 +34,12 @@ function server() {
     });
 }
 
+gulp.task("default", gulp.parallel(server, watch)); //runs the liveserver function and reloads content
+
+
 module.exports = {
     processHTML,
     processSass,
     watch,
     server
-   }
+}
