@@ -1,11 +1,11 @@
-# Gulp Live Server
+# Gulp AllinOne Live Server
 This is a full Gulp live server, Sass processor and css minifier in one.
  
 # Usage
-Install using `npm i gulp-live-server`
+Install using `npm i gulp-allinone-server`
  
 ```javascript
-var gulpLiveServer = require("gulp-live-server");
+var gulpLiveServer = require("gulp-allinone-server");
  
 ```
 
