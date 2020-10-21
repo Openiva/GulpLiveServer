@@ -22,5 +22,5 @@ myFunctions.watch
 myFunctions.server
 ```
 
-# Include this folder structure:
+### Include this folder structure:
 create a folder called 'src' that contains subfolders: 'html', 'js', 'sass' in root directory.
