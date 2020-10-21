@@ -32,4 +32,11 @@ function server() {
         root: 'dist',
         livereload: true
     });
-};
+}
+
+module.exports = {
+    processHTML,
+    processSass,
+    watch,
+    server
+   }
