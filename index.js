@@ -1,5 +1,6 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass"); //imports sass
+var cleanCss = require("gulp-clean-css"); //css minify
 var connect = require("gulp-connect");
 
 function processHTML() {
