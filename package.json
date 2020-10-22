@@ -35,5 +35,6 @@
   "bugs": {
     "url": "https://github.com/Openiva/GulpLiveServer/issues"
   },
-  "homepage": "https://github.com/Openiva/GulpLiveServer#readme"
+  "homepage": "https://github.com/Openiva/GulpLiveServer#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" } 
 }
