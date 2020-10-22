@@ -7,7 +7,7 @@ var {
     exec
 } = require("child_process");
 
-var TEMPLATE_DIR = path.join(__dirname, "pkg");
+var TEMPLATE_DIR = path.join(__dirname, "src");
 var MODE_0666 = parseInt('0755', 8);
 
 if (!fs.existsSync("./package.json")) {
