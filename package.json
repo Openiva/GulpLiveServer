@@ -2,6 +2,7 @@
   "name": "gulp-allinone-server",
   "version": "1.2.0",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-connect": "^5.7.0",
@@ -9,15 +10,9 @@
   },
   "description": "An All-in-one Gulp live server which includes a Sass pre-processor and CSS minifier",
   "main": "index.js",
-  "files": [
-    "index.js",
-    "/src",
-    "package.json",
-    "package-lock.json",
-    "gulpfile.js",
-    ".gitignore",
-    "README.md"
-  ],
+  "bin": {
+    "init": "./index.js"
+  },
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
