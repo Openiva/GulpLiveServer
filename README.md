@@ -1,8 +1,13 @@
 # Gulp AllinOne Live Server
 This is a full Gulp live server, Sass processor and css minifier in one.
  
+# New in 1.1.4
+Folders are auto-generated upon download from npm (Allegedly).
+
 # Usage
-Install using `npm i gulp-allinone-server`
+Install using 
+* 'npm init'
+* `npx gulp-allinone-server`
  
 ```javascript
 var gulpLiveServer = require("gulp-allinone-server");
@@ -31,3 +36,4 @@ Root directory
    - 'sass' subfolder
    - 'js' subfolder
  - gulpfile.js (placed outside of src in root directory)
+
