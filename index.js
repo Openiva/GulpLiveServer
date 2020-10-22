@@ -7,7 +7,7 @@ var {
     exec
 } = require("child_process");
 
-var TEMPLATE_DIR = path.join(__dirname, "pkg");
+var TEMPLATE_DIR = path.join(__dirname, "src");
 var MODE_0666 = parseInt('0755', 8);
 
 if (!fs.existsSync("./package.json")) {
@@ -42,7 +42,9 @@ mkdir.sync("./src/js");
 mkdir.sync("./src/images");
 mkdir.sync("./src/media");
 
+copyFileMulti("tasks", "./tasks");
 copyFileMulti("src/html", "./src/html");
+copyFileMulti("src/html/layouts", "./src/html/layouts");
 copyFileMulti("src/scss", "./src/scss");
 copyFileMulti("src/js", "./src/js");
 copyFileMulti("src/images", "./src/images");
