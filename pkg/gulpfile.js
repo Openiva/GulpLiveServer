@@ -4,13 +4,13 @@ var cleanCss = require("gulp-clean-css"); //css minify
 var connect = require("gulp-connect");
 
 function processHTML() {
-    return gulp.src("pkg/src/html/**/*.html")
+    return gulp.src("src/html/**/*.html")
         .pipe(gulp.dest("dist/assets/html"))
         .pipe(connect.reload());
 }
 
 function processSass() { //chews through sass and prints out css(task function)
-    return gulp.src("pkg/src/sass/**/*.scss") //returns a promise and looks in all folders under sass
+    return gulp.src("src/sass/**/*.scss") //returns a promise and looks in all folders under sass
         .pipe(sass()) //preprocessor
         .pipe(cleanCss({
             compatibility: "ie8"
@@ -20,10 +20,10 @@ function processSass() { //chews through sass and prints out css(task function)
 }
 
 function watch() { //updating changes
-    gulp.watch("pkg/src/sass/**/*.scss", {
+    gulp.watch("src/sass/**/*.scss", {
         ignoreInitial: false
     }, processSass);
-    gulp.watch("pkg/src/html/**/*.html", {
+    gulp.watch("src/html/**/*.html", {
         ignoreInitial: false
     }, processHTML);
 }

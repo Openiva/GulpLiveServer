@@ -41,11 +41,11 @@ mkdir.sync("./src/js");
 mkdir.sync("./src/media");
 mkdir.sync("./src/scss");
 
-copyFileMulti("pkg/src/html", "./src/html");
-copyFileMulti("pkg/src/images", "./src/images");
-copyFileMulti("pkg/src/js", "./src/js");
-copyFileMulti("pkg/src/media", "./src/media");
-copyFileMulti("pkg/src/scss", "./src/scss");
+copyFileMulti("src/html", "./src/html");
+copyFileMulti("src/images", "./src/images");
+copyFileMulti("src/js", "./src/js");
+copyFileMulti("src/media", "./src/media");
+copyFileMulti("src/scss", "./src/scss");
 copyFile("gulpfile.js", "./gulpfile.js");
 
 exec("npm i -D gulp gulp-clean-css gulp-connect gulp-sass", function (err, stdout, stderr) {
