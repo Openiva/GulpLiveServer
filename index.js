@@ -47,8 +47,7 @@ copyFileMulti("src/js", "./src/js");
 copyFileMulti("src/media", "./src/media");
 copyFileMulti("src/scss", "./src/scss");
 copyFile("gulpfile.js", "./gulpfile.js");
-copyFile("package.json", "./package.json");
-copyFile("README.md", "./README.md");
+
 
 exec("npm i -D gulp gulp-clean-css gulp-connect gulp-sass", function (err, stdout, stderr) {
     if (err) {
