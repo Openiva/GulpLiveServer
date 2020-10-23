@@ -1,5 +1,5 @@
 {
-  "name": "gulp-allinone-server",
+  "name": "allinone-server",
   "version": "1.4.2",
   "dependencies": {
     "mkdirp": "^1.0.4",
