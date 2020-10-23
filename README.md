@@ -22,9 +22,22 @@ var gulpLiveServer = require("gulp-allinone-server");
 And then you can call each function by calling:
 
 ```
-myFunctions.processHtml
-myFunctions.processSass
-myFunctions.watch
-myFunctions.server
+myFunction.processHtml
+myFunction.processSass
+myFunction.watch
+myFunction.server
 ```
+
+
+```
+Potentials in the future:
+Babel support
+User requests
+```
+
+Feel free to contribute to this open-source project or use it under the MIT license. 
+
+thanks to [@BrianEmilius](https://github.com/BrianEmilius "Brian's Github") for guidance
+
+Made with ♡ in Roskilde, Denmark
 
