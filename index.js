@@ -46,7 +46,6 @@ copyFileMulti("src/images", "./src/images");
 copyFileMulti("src/js", "./src/js");
 copyFileMulti("src/media", "./src/media");
 copyFileMulti("src/scss", "./src/scss");
-copyFileMulti("src/Readme.md", "./src/Readme.md");
 copyFile("gulpfile.js", "./gulpfile.js");
 
 
