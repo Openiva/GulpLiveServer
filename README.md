@@ -1,8 +1,7 @@
 # AllinOne Gulp Live Server
 This is a full Gulp live server, Sass processor and css minifier in one.
  
-# New in 1.1.4
-Folder structure are auto-generated upon download from npm.
+The Folder structure are auto-generated upon download from npm.
 
 # Usage
 ### Install using 
