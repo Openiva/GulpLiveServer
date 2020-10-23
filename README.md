@@ -1,3 +1,4 @@
+<img alt="npm" src="https://img.shields.io/npm/v/allinone-gulp-server"><img alt="npm collaborators" src="https://img.shields.io/npm/collaborators/allinone-gulp-server">
 # AllinOne Gulp Live Server
 This is a full Gulp live server, Sass processor and css minifier in one.
  
@@ -11,6 +12,10 @@ The Folder structure are auto-generated upon download from npm.
 * 'npm init'
 * `npx allinone-gulp-server`
  
+##### Run this command in terminal order to use the server:
+* npm start 
+
+(make sure your index.html is being exported to the dist folder)
 
 To import/access them in another file:
 
@@ -32,7 +37,7 @@ myFunction.server
 ```
 Potentials in the future:
 Babel support
-User requests
+User Requests
 ```
 
 Feel free to contribute to this open-source project or use it under the MIT license. 
