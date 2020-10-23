@@ -8,14 +8,13 @@ The Folder structure are auto-generated upon download from npm.
 * 'npm init'
 * `npx allinone-gulp-server`
  
+
+To import/access them in another file:
+
 ```javascript
 var gulpLiveServer = require("gulp-allinone-server");
  
 ```
-
-To import/access them in another file:
-
-var myFunction = require("./lib/file.js")
 
 And then you can call each function by calling:
 
