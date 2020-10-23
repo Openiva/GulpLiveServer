@@ -12,7 +12,7 @@ The Folder structure is auto-generated upon download from npm.
 * 'npm init'
 * `npx allinone-gulp-server`
  
-##### Run this command in terminal order to use the server:
+##### Run this command in terminal to use the server:
 * npm start 
 
 (make sure your index.html is being exported to the dist folder)
