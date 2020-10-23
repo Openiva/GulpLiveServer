@@ -5,7 +5,7 @@ var connect = require("gulp-connect");
 
 function processHTML() {
     return gulp.src("src/html/**/*.html")
-        .pipe(gulp.dest("dist/assets/html"))
+        .pipe(gulp.dest("dist/"))
         .pipe(connect.reload());
 }
 
