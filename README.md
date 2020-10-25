@@ -1,4 +1,6 @@
-<img alt="npm" src="https://img.shields.io/npm/v/allinone-gulp-server"><img alt="npm collaborators" src="https://img.shields.io/npm/collaborators/allinone-gulp-server">
+<img alt="npm" src="https://img.shields.io/npm/v/allinone-gulp-server">
+
+![GitHub repo size](https://img.shields.io/github/repo-size/openiva/GulpLiveServer)![GitHub contributors](https://img.shields.io/github/contributors/openiva/GulpLiveServer)![GitHub stars](https://img.shields.io/github/stars/openiva/GulpLiveServer?style=social)![GitHub forks](https://img.shields.io/github/forks/openiva/GulpLiveServer?style=social)
 # AllinOne Gulp Server
 This is a full Gulp live server, Sass processor and css minifier in one.
  
