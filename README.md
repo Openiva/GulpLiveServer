@@ -20,7 +20,7 @@ The Folder structure is auto-generated upon download from npm.
 To import/access them in another file:
 
 ```javascript
-var gulpLiveServer = require("gulp-allinone-server");
+var gulpLiveServer = require("allinone-gulp-server");
  
 ```
 
