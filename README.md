@@ -6,14 +6,20 @@ This is a full Gulp live server, Sass processor and css minifier in one.
  
 The Folder structure is auto-generated upon download from npm.
 
-####2.1.0 acts as the full release for the now deprecated alpha:
-[gulp-allinone-server](https://www.npmjs.com/package/gulp-allinone-server "gulp-allinone-server")
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+<!--- These are just example requirements. Add, duplicate or remove as required --->
+* You have installed the latest version of `npm`
+* You have installed the latest version of `node.js`
 
-# Usage
-### Install using 
-* 'npm init'
-* `npx allinone-gulp-server`
- 
+## Install
+
+To install, type this in your terminal:
+
+```py
+$ npm init
+$ npx allinone-gulp-server
+```
 ##### Run this command in terminal to use the server:
 * npm start 
 
