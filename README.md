@@ -19,6 +19,10 @@ To install, type this in your terminal:
 ```py
 $ npm init
 $ npx allinone-gulp-server
+
+or
+
+var allInGulp = require ("https://unpkg.com/allinone-gulp-server");
 ```
 ##### Run this command in terminal to use the server:
 * npm start 
@@ -44,7 +48,7 @@ myFunction.server
 
 ```
 Potentials in the future:
-Babel support
+Babel support (soon)
 User Requests
 ```
 
